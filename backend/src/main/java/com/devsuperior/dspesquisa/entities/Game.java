@@ -31,10 +31,10 @@ public class Game implements Serializable  {
 	@JoinColumn(name = "genre_id")
 	private Genre genre;
 	
-	@OneToMany(mappedBy = "gAME") // ASSOCIA AS LISTAS DE GAMES AO GÊNERO
+	@OneToMany(mappedBy = "game") // ASSOCIA AS LISTAS DE GAMES AO GÊNERO
 	private List<Record> records = new ArrayList<>();
 	
-	public Game( ) { 
+	public Game() { 
 }
 
 	public Game(Long id, String title, Platform platform, Genre genre) {

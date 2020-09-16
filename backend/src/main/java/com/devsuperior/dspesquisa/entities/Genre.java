@@ -14,7 +14,6 @@ import javax.persistence.Table;
 @Entity // MAPEAMENTO OBJETO-RELACIONAL JPA NAS ENTIDADES 
 @Table(name = "tb_genre")
 public class Genre implements Serializable  {
-	
 	private static final long serialVersionUID = 1L;
 	
 	@Id // MAPEAMENTO OBJETO-RELACIONAL JPA NAS ENTIDADES 
