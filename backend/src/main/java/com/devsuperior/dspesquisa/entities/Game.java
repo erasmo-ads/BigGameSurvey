@@ -14,6 +14,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.devsuperior.dspesquisa.entities.enums.Platform;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity // MAPEAMENTO OBJETO-RELACIONAL JPA NAS ENTIDADES 
 @Table(name = "tb_game")
@@ -27,10 +28,12 @@ public class Game implements Serializable  {
 	private String title;
 	private Platform platform;
 	
+	@JsonIgnore // ANOTAÇÃO PROVISÓRIO PARA TESTE NO POSTMAN
 	@ManyToOne  // MAPEAMENTO OBJETO-RELACIONAL JPA NAS ENTIDADES 
 	@JoinColumn(name = "genre_id")
 	private Genre genre;
 	
+	@JsonIgnore // ANOTAÇÃO PROVISÓRIO PARA TESTE NO POSTMAN
 	@OneToMany(mappedBy = "game") // ASSOCIA AS LISTAS DE GAMES AO GÊNERO
 	private List<Record> records = new ArrayList<>();
 	
