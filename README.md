@@ -1,6 +1,6 @@
 # Big Game Survey
 
-**Aplicativo de Pesquisa de Preferência de Jogos desenvolvido na 1ª Semana DevSuperior**
+## Aplicativo de Pesquisa de Preferência de Jogos desenvolvido na 1ª Semana DevSuperior
 
 Participar deste evento foi muito agregador para meu desenvolvimento! Algumas tecnologias utilizadas eu já ouvira falar, mas outras foi a primeira vez que tive contato e foi incrível acompanhar o passo a passo de um projeto completo pela primeira vez! Me deu ainda mais força de vontade pra continuar nesse jornada de desenvolver minhas habilidades para futuramente conseguir construir sozinho projetos como esse. Um muito obrigado aos queridos professores Nélio Alves (Back End) e  Washington Soares (Front End) pela excelente didática!
 
@@ -9,7 +9,7 @@ https://friendly-meitner-527e58.netlify.app/
 
 ### Tecnologias utilizadas no Back End:  Eclipse / Spring Boot / Git e Github / Maven / JPA / PostgreSQL / Heroku / PostMan
 
-### Tecnologias utilizadas no Front End: VsCode / ReactJS/ NodeJs
+### Tecnologias utilizadas no Front End: VsCode / ReactJS/ NodeJs / Netlify
 
 
 ### Conceitos trabalhados no Projeto:
