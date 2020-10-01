@@ -7,9 +7,11 @@ Participar deste evento foi muito agregador para meu desenvolvimento! Algumas te
 ### Para visualizar o aplicativo web em funcionamento clique no link: 
 https://friendly-meitner-527e58.netlify.app/
 
-### Tecnologias utilizadas no Back End:  Eclipse / Spring Boot / Git e Github / Maven / JPA / PostgreSQL / Heroku / PostMan
+### Tecnologias utilizadas no Back End:  
+Eclipse / Spring Boot / Git e Github / Maven / JPA / PostgreSQL / Heroku / PostMan
 
-### Tecnologias utilizadas no Front End: VsCode / ReactJS/ NodeJs / Netlify
+### Tecnologias utilizadas no Front End:
+VsCode / ReactJS/ NodeJs / Netlify
 
 
 ### Conceitos trabalhados no Projeto:
@@ -29,4 +31,7 @@ https://friendly-meitner-527e58.netlify.app/
 • Single Page Applications
 • ReactJS
 • Componentização
+
+### Workbook do evento:
+https://drive.google.com/file/d/1rnf8sAegeR7OXfaloqVReQxPnS52uL_l
 
